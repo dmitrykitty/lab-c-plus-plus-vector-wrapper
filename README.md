@@ -81,7 +81,7 @@ ________________________________________________________________________________
 5. Jaka jest różnica czy dziedziczymy po kontenerze czy go agregujemy?
 6. Jest też biblioteka benchmark załączona i podpięta, po implementacji można przełączyć konfiguracje i porównać wyniki.
 7. Jakby ktoś chciał poczytać o innych kontenerach, których nie ma w standardzie (a już zna te standardowe):
-   polecam artykuł, w którym [zestawiam kontenery niestandardowe](https://cpp0x.pl/artykuly/Inne-artykuly/Kontenery-niestandardowe-w-C++-z-naciskiem-na-biblioteke-boost/100).
+   polecam artykuł, w którym [zestawiam kontenery niestandardowe](https://cpp0x.pl/artykuly/Inne-artykuly/Kontenery-niestandardowe-w-C++-z-naciskiem-na-biblioteke-boost/100). Jest również dostępne [nagranie](https://banbye.com/watch/v_PFJ1FOiRwTjC).
 ____________________________________________________________________________________
 Informacje jak czytać testy znajdują się w materiale [wideo](https://banbye.com/watch/v__449lemFZDAa), a w nagraniu:
 1. Co chcemy zrobić?
