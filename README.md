@@ -99,8 +99,8 @@ ________________________________________________________________________________
 3. Obiekty typów klasowych powinny być w miarę możliwości przekazywane
    w argumentach funkcji przez referencję do stalej,
 4. Proszę stosować słówko "const" w odpowiednich miejscach.
-5. W pliku zrodlowym prosze nie wlaczac dodatkowych naglowkow typu:
-   `<iostream>`, `<algorithm>` - takie rzeczy powinny byc w pliku zrodlowym
+5. W pliku nagłówkowym prosze nie wlaczac dodatkowych naglowkow typu:
+   `<iostream>`, `<algorithm>` - takie rzeczy mogą byc w pliku źródłowym.
 6. Prosze aby w pliku naglowkowym nie bylo `using namespace std;`, w zrodlowym moze.
 7. Mozna korzystac z metod z `<cstring>`.
 8. Sugeruję pisać porządnie, czyli deklaracje metod w pliku nagłówkowym, definicje w źródłowym
