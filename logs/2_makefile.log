@@ -1,0 +1,13 @@
+[ 14%] Building CXX object unit_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 28%] Linking CXX static library ../../../lib/libgtest.a
+[ 28%] Built target gtest
+[ 42%] Building CXX object unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 57%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 57%] Built target gtest_main
+[ 71%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/containerWrapper.cpp.o
+[ 85%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/containerWrapperTests.cpp.o
+/tmp/tmpm7ace_5q/student/containerWrapper.cpp:10:2: warning: #warning "Metody klasy sa do zaimplementowania. Instrukcja w pliku naglowkowym i README.md" [-Wcpp]
+   10 | #warning "Metody klasy sa do zaimplementowania. Instrukcja w pliku naglowkowym i README.md" // po zaimplementowaniu sugeruje usuniecie tej linijki - nie chcemy warningow
+      |  ^~~~~~~
+[100%] Linking CXX executable ../bin/unit_tests
+[100%] Built target unit_tests
