@@ -4,66 +4,7 @@
 [ 42%] Building CXX object unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 [ 57%] Linking CXX static library ../../../lib/libgtest_main.a
 [ 57%] Built target gtest_main
-[ 71%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/containerWrapperTests.cpp.o
-[ 85%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/containerWrapper.cpp.o
-/tmp/tmpqtdndhya/student/containerWrapper.cpp:10:2: warning: #warning "Metody klasy sa do zaimplementowania. Instrukcja w pliku naglowkowym i README.md" [-Wcpp]
-   10 | #warning "Metody klasy sa do zaimplementowania. Instrukcja w pliku naglowkowym i README.md" // po zaimplementowaniu sugeruje usuniecie tej linijki - nie chcemy warningow
-      |  ^~~~~~~
-In file included from /tmp/tmpqtdndhya/student/containerWrapper.cpp:8:
-/tmp/tmpqtdndhya/student/containerWrapper.h: In constructor ‘VectorWrapper::VectorWrapper(const value_type*, std::size_t)’:
-/tmp/tmpqtdndhya/student/containerWrapper.h:147:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
-  147 |         for (int i = 0; i < size; i++) {
-      |                         ~~^~~~~~
-In file included from /tmp/tmpqtdndhya/student/unit_tests/containerWrapperTests.cpp:6:
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h: In constructor ‘VectorWrapper::VectorWrapper(const value_type*, std::size_t)’:
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:147:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
-  147 |         for (int i = 0; i < size; i++) {
-      |                         ~~^~~~~~
-/tmp/tmpqtdndhya/student/unit_tests/containerWrapperTests.cpp: In member function ‘virtual void ContainerWrapperTester_constructionLotsOfElementsWithDefaultConstructor_expectedNoCrash_Test::TestBody()’:
-/tmp/tmpqtdndhya/student/unit_tests/containerWrapperTests.cpp:38:84: error: invalid new-expression of abstract class type ‘VectorWrapper’
-   38 |     [[maybe_unused]] unique_ptr<ContainerWrapper[]> wrappers(new ContainerWrapper[N]);
-      |                                                                                    ^
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:140:7: note:   because the following virtual functions are pure within ‘VectorWrapper’:
-  140 | class VectorWrapper : IContainerWrapper {
-      |       ^~~~~~~~~~~~~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:75:18: note:     ‘virtual void IContainerWrapper::push_back(const value_type&)’
-   75 |     virtual void push_back(const value_type &element) = 0;
-      |                  ^~~~~~~~~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:77:18: note:     ‘virtual void IContainerWrapper::push_front(const value_type&)’
-   77 |     virtual void push_front(const value_type &element) = 0;
-      |                  ^~~~~~~~~~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:82:18: note:     ‘virtual void IContainerWrapper::insert(const value_type&, std::size_t)’
-   82 |     virtual void insert(const value_type &element, std::size_t position) = 0;
-      |                  ^~~~~~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:84:25: note:     ‘virtual std::size_t IContainerWrapper::size() const’
-   84 |     virtual std::size_t size() const = 0;
-      |                         ^~~~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:86:25: note:     ‘virtual IContainerWrapper::value_type& IContainerWrapper::at(std::size_t)’
-   86 |     virtual value_type &at(std::size_t position) = 0;
-      |                         ^~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:90:18: note:     ‘virtual void IContainerWrapper::sort()’
-   90 |     virtual void sort() = 0;
-      |                  ^~~~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:92:18: note:     ‘virtual void IContainerWrapper::erase(std::size_t)’
-   92 |     virtual void erase(std::size_t position) = 0;
-      |                  ^~~~~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:96:24: note:     ‘virtual IContainerWrapper::value_type IContainerWrapper::count() const’
-   96 |     virtual value_type count() const = 0;
-      |                        ^~~~~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:100:25: note:     ‘virtual std::size_t IContainerWrapper::find(const value_type&) const’
-  100 |     virtual std::size_t find(const value_type &needle) const = 0;
-      |                         ^~~~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:104:24: note:     ‘virtual IContainerWrapper::value_type IContainerWrapper::pop_front()’
-  104 |     virtual value_type pop_front() = 0;
-      |                        ^~~~~~~~~
-/tmp/tmpqtdndhya/student/unit_tests/../containerWrapper.h:106:24: note:     ‘virtual IContainerWrapper::value_type IContainerWrapper::pop_back()’
-  106 |     virtual value_type pop_back() = 0;
-      |                        ^~~~~~~~
-/tmp/tmpqtdndhya/student/unit_tests/containerWrapperTests.cpp: In member function ‘virtual void ContainerWrapperTester_constructionFromArray_expectedElementsCopied_Test::TestBody()’:
-/tmp/tmpqtdndhya/student/unit_tests/containerWrapperTests.cpp:54:39: error: cannot declare variable ‘wrapper’ to be of abstract type ‘VectorWrapper’
-   54 |     [[maybe_unused]] ContainerWrapper wrapper(sourceElements.data(), sourceElements.size());
-      |                                       ^~~~~~~
-make[3]: *** [unit_tests/CMakeFiles/unit_tests.dir/build.make:76: unit_tests/CMakeFiles/unit_tests.dir/containerWrapperTests.cpp.o] Error 1
-make[2]: *** [CMakeFiles/Makefile2:398: unit_tests/CMakeFiles/unit_tests.dir/all] Error 2
-make[1]: *** [CMakeFiles/Makefile2:405: unit_tests/CMakeFiles/unit_tests.dir/rule] Error 2
-make: *** [Makefile:260: unit_tests] Error 2
+[ 71%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/containerWrapper.cpp.o
+[ 85%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/containerWrapperTests.cpp.o
+[100%] Linking CXX executable ../bin/unit_tests
+[100%] Built target unit_tests

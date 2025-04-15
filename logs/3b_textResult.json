@@ -1,0 +1,184 @@
+{
+  "tests": 12,
+  "failures": 7,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2025-04-15T17:30:38Z",
+  "time": "32.575s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ContainerWrapperTester",
+      "tests": 12,
+      "failures": 7,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2025-04-15T17:30:38Z",
+      "time": "32.575s",
+      "testsuite": [
+        {
+          "name": "constructionLotsOfElementsWithDefaultConstructor_expectedNoCrash",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 35,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:30:38Z",
+          "time": "0.015s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "constructionFromArray_expectedElementsCopied",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 49,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:30:38Z",
+          "time": "0.002s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "pushBackManyElements",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 60,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:30:38Z",
+          "time": "0.008s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "pushFrontManyElements",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 75,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:30:38Z",
+          "time": "16.28s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "insertingInRandomPositionManyElements",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 90,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:30:54Z",
+          "time": "16.265s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "randomAccess",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 106,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:31:10Z",
+          "time": "0s",
+          "classname": "ContainerWrapperTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp:118\nFailed\nMethod at() not implemented!\n",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "sorting",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:31:10Z",
+          "time": "0s",
+          "classname": "ContainerWrapperTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp:137\nFailed\nMethod sort() not implemented!\n",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "randomErase",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 141,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:31:10Z",
+          "time": "0s",
+          "classname": "ContainerWrapperTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp:155\nFailed\nMethod erase() not implemented!\n",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "count_expectedAllElementsCounted",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 159,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:31:10Z",
+          "time": "0s",
+          "classname": "ContainerWrapperTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp:169\nFailed\nMethod count() not implemented!\n",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "findElement",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 173,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:31:10Z",
+          "time": "0s",
+          "classname": "ContainerWrapperTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp:190\nFailed\nMethod find() not implemented!\n",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "popFront",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 194,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:31:10Z",
+          "time": "0s",
+          "classname": "ContainerWrapperTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp:210\nFailed\nMethod pop_front() not implemented!\n",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "popBack",
+          "file": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp",
+          "line": 214,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2025-04-15T17:31:10Z",
+          "time": "0s",
+          "classname": "ContainerWrapperTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmprhlcct3e\/student\/unit_tests\/containerWrapperTests.cpp:230\nFailed\nMethod pop_back() not implemented!\n",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

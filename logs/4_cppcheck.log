@@ -1,0 +1,306 @@
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:1942:17: warning: Found an exit path from function with non-void return type that has missing return statement [missingReturn]
+  switch (unit) {
+                ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:1956:17: warning: Found an exit path from function with non-void return type that has missing return statement [missingReturn]
+  switch (unit) {
+                ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:1741:5: warning: Member variable 'Run::family_index' is not initialized in the constructor. [uninitMemberVar]
+    Run()
+    ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:1741:5: warning: Member variable 'Run::per_family_instance_index' is not initialized in the constructor. [uninitMemberVar]
+    Run()
+    ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:1741:5: warning: Member variable 'Run::repetition_index' is not initialized in the constructor. [uninitMemberVar]
+    Run()
+    ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:1741:5: warning: Member variable 'Run::repetitions' is not initialized in the constructor. [uninitMemberVar]
+    Run()
+    ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:1741:5: warning: Member variable 'Run::statistics' is not initialized in the constructor. [uninitMemberVar]
+    Run()
+    ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:639:3: warning: Class 'Counter' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+  Counter(double v = 0., Flags f = kDefaults, OneK k = kIs1000)
+  ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:49:55: warning: Parameter 'state' can be declared as reference to const. However it seems that 'BM_pushBackManyElements' is a callback function, if 'state' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+static void BM_pushBackManyElements(benchmark::State& state)
+                                                      ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:62:1: note: You might need to cast the function pointer here
+BENCHMARK(BM_pushBackManyElements);
+^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:49:55: note: Parameter 'state' can be declared as reference to const
+static void BM_pushBackManyElements(benchmark::State& state)
+                                                      ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:65:56: warning: Parameter 'state' can be declared as reference to const. However it seems that 'BM_pushFrontManyElements' is a callback function, if 'state' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+static void BM_pushFrontManyElements(benchmark::State& state)
+                                                       ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:78:1: note: You might need to cast the function pointer here
+BENCHMARK(BM_pushFrontManyElements);
+^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:65:56: note: Parameter 'state' can be declared as reference to const
+static void BM_pushFrontManyElements(benchmark::State& state)
+                                                       ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:81:72: warning: Parameter 'state' can be declared as reference to const. However it seems that 'BM_insertingInRandomPositionManyElements' is a callback function, if 'state' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+static void BM_insertingInRandomPositionManyElements(benchmark::State& state)
+                                                                       ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:95:1: note: You might need to cast the function pointer here
+BENCHMARK(BM_insertingInRandomPositionManyElements);
+^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:81:72: note: Parameter 'state' can be declared as reference to const
+static void BM_insertingInRandomPositionManyElements(benchmark::State& state)
+                                                                       ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:98:47: warning: Parameter 'state' can be declared as reference to const. However it seems that 'BM_randomAccess' is a callback function, if 'state' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+static void BM_randomAccess(benchmark::State& state)
+                                              ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:110:1: note: You might need to cast the function pointer here
+BENCHMARK(BM_randomAccess);
+^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:98:47: note: Parameter 'state' can be declared as reference to const
+static void BM_randomAccess(benchmark::State& state)
+                                              ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:113:42: warning: Parameter 'state' can be declared as reference to const. However it seems that 'BM_sorting' is a callback function, if 'state' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+static void BM_sorting(benchmark::State& state)
+                                         ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:125:1: note: You might need to cast the function pointer here
+BENCHMARK(BM_sorting);
+^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:113:42: note: Parameter 'state' can be declared as reference to const
+static void BM_sorting(benchmark::State& state)
+                                         ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:128:46: warning: Parameter 'state' can be declared as reference to const. However it seems that 'BM_randomErase' is a callback function, if 'state' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+static void BM_randomErase(benchmark::State& state)
+                                             ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:143:1: note: You might need to cast the function pointer here
+BENCHMARK(BM_randomErase);
+^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:128:46: note: Parameter 'state' can be declared as reference to const
+static void BM_randomErase(benchmark::State& state)
+                                             ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:146:67: warning: Parameter 'state' can be declared as reference to const. However it seems that 'BM_count_expectedAllElementsCounted' is a callback function, if 'state' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+static void BM_count_expectedAllElementsCounted(benchmark::State& state)
+                                                                  ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:157:1: note: You might need to cast the function pointer here
+BENCHMARK(BM_count_expectedAllElementsCounted);
+^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:146:67: note: Parameter 'state' can be declared as reference to const
+static void BM_count_expectedAllElementsCounted(benchmark::State& state)
+                                                                  ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:160:46: warning: Parameter 'state' can be declared as reference to const. However it seems that 'BM_findElement' is a callback function, if 'state' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+static void BM_findElement(benchmark::State& state)
+                                             ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:176:1: note: You might need to cast the function pointer here
+BENCHMARK(BM_findElement);
+^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:160:46: note: Parameter 'state' can be declared as reference to const
+static void BM_findElement(benchmark::State& state)
+                                             ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:179:42: warning: Parameter 'state' can be declared as reference to const. However it seems that 'BM_popBack' is a callback function, if 'state' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+static void BM_popBack(benchmark::State& state)
+                                         ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:192:1: note: You might need to cast the function pointer here
+BENCHMARK(BM_popBack);
+^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:179:42: note: Parameter 'state' can be declared as reference to const
+static void BM_popBack(benchmark::State& state)
+                                         ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:195:43: warning: Parameter 'state' can be declared as reference to const. However it seems that 'BM_popFront' is a callback function, if 'state' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+static void BM_popFront(benchmark::State& state)
+                                          ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:208:1: note: You might need to cast the function pointer here
+BENCHMARK(BM_popFront);
+^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:195:43: note: Parameter 'state' can be declared as reference to const
+static void BM_popFront(benchmark::State& state)
+                                          ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:58:21: warning: Consider using std::copy algorithm instead of a raw loop. [useStlAlgorithm]
+            wrapper.push_back(element);
+                    ^
+/tmp/tmprhlcct3e/student/benchmark/containerBenchmark.cpp:74:21: warning: Consider using std::copy algorithm instead of a raw loop. [useStlAlgorithm]
+            wrapper.push_front(element);
+                    ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:624:17: warning: Shifting signed 32-bit value by 31 bits is implementation-defined behaviour [shiftTooManyBitsSigned]
+    kInvert = 1 << 31
+                ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:624:17: warning: Signed integer overflow for expression '1<<31'. [integerOverflow]
+    kInvert = 1 << 31
+                ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/re.h:63:3: warning: Member variable 'Regex::re_' is not initialized in the constructor. [uninitMemberVar]
+  Regex() : init_(false) {}
+  ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/log.h:29:3: warning: Class 'LogType' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+  LogType(std::ostream* out) : out_(out) {}
+  ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/mutex.h:91:3: warning: Class 'MutexLock' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+  MutexLock(Mutex& m) ACQUIRE(m) : ml_(m.native_handle()) {}
+  ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/mutex.h:101:3: warning: Class 'Barrier' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+  Barrier(int num_threads) : running_threads_(num_threads) {}
+  ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/perf_counters.h:151:3: warning: Class 'PerfCountersMeasurement' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+  PerfCountersMeasurement(const std::vector<std::string>& counter_names);
+  ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/mutex.h:143:25: warning: Condition 'phase_number_>phase_number_cp' is always false [knownConditionTrueFalse]
+      if (phase_number_ > phase_number_cp) return false;
+                        ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/mutex.h:137:27: note: phase_number_cp is assigned 'phase_number_' here.
+      int phase_number_cp = phase_number_;
+                          ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/mutex.h:143:25: note: Condition 'phase_number_>phase_number_cp' is always false
+      if (phase_number_ > phase_number_cp) return false;
+                        ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark.cc:241:26: warning: Local variable 'name' shadows outer function [shadowFunction]
+      const std::string& name = name_and_measurement.first;
+                         ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:934:15: note: Shadowed declaration
+  std::string name() const { return name_; }
+              ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark.cc:241:26: note: Shadow variable
+      const std::string& name = name_and_measurement.first;
+                         ^
+/tmp/tmprhlcct3e/student/benchmark/lib/include/benchmark/benchmark.h:624:17: warning: Shifting signed 32-bit value by 31 bits is undefined behaviour [shiftTooManyBitsSigned]
+    kInvert = 1 << 31
+                ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark.cc:733:30: warning: Unused variable: init [unusedVariable]
+  static std::ios_base::Init init;
+                             ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:255:11: warning: Consider using std::transform algorithm instead of a raw loop. [useStlAlgorithm]
+    args_.push_back({i});
+          ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_runner.cc:110:11: warning: Condition 'memory_iterations' is always true [knownConditionTrueFalse]
+          memory_iterations ? static_cast<double>(memory_result->num_allocs) /
+          ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_runner.cc:106:27: note: Assuming that condition 'memory_iterations>0' is not redundant
+    if (memory_iterations > 0) {
+                          ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_runner.cc:110:11: note: Condition 'memory_iterations' is always true
+          memory_iterations ? static_cast<double>(memory_result->num_allocs) /
+          ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/perf_counters.cc:268:3: warning: Variable 'counters_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+  counters_ = PerfCounters::Create(counter_names);
+  ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/reporter.cc:95:29: warning: Member variable 'Context::name_field_width' is not initialized in the constructor. [uninitMemberVar]
+BenchmarkReporter::Context::Context()
+                            ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/reporter.cc:54:16: warning: Variable 'CInfo' can be declared as reference to const [constVariable]
+    for (auto &CInfo : info.caches) {
+               ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/statistics.cc:112:13: warning: struct member 'CounterStat::c' is never used. [unusedStructMember]
+    Counter c;
+            ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/statistics.cc:113:25: warning: struct member 'CounterStat::s' is never used. [unusedStructMember]
+    std::vector<double> s;
+                        ^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/cycleclock.h:224:0: warning: #error You need to define CycleTimer for your OS and CPU [preprocessorErrorDirective]
+#error You need to define CycleTimer for your OS and CPU
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/timers.cc:193:0: warning: #error Per-thread timing is not available on your system. [preprocessorErrorDirective]
+#error Per-thread timing is not available on your system.
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark.cc:258:0: warning: The function 'SkipWithMessage' is never used. [unusedFunction]
+void State::SkipWithMessage(const std::string& msg) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark.cc:271:0: warning: The function 'SkipWithError' is never used. [unusedFunction]
+void State::SkipWithError(const std::string& msg) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark.cc:288:0: warning: The function 'SetLabel' is never used. [unusedFunction]
+void State::SetLabel(const std::string& label) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark.cc:626:0: warning: The function 'GetBenchmarkFilter' is never used. [unusedFunction]
+std::string GetBenchmarkFilter() { return FLAGS_benchmark_filter; }
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark.cc:628:0: warning: The function 'SetBenchmarkFilter' is never used. [unusedFunction]
+void SetBenchmarkFilter(std::string value) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark.cc:632:0: warning: The function 'GetBenchmarkVerbosity' is never used. [unusedFunction]
+int32_t GetBenchmarkVerbosity() { return FLAGS_v; }
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark.cc:634:0: warning: The function 'RegisterMemoryManager' is never used. [unusedFunction]
+void RegisterMemoryManager(MemoryManager* manager) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:232:0: warning: The function 'Name' is never used. [unusedFunction]
+Benchmark* Benchmark::Name(const std::string& name) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:237:0: warning: The function 'Arg' is never used. [unusedFunction]
+Benchmark* Benchmark::Arg(int64_t x) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:243:0: warning: The function 'Unit' is never used. [unusedFunction]
+Benchmark* Benchmark::Unit(TimeUnit unit) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:249:0: warning: The function 'Range' is never used. [unusedFunction]
+Benchmark* Benchmark::Range(int64_t start, int64_t limit) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:302:0: warning: The function 'ArgName' is never used. [unusedFunction]
+Benchmark* Benchmark::ArgName(const std::string& name) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:308:0: warning: The function 'ArgNames' is never used. [unusedFunction]
+Benchmark* Benchmark::ArgNames(const std::vector<std::string>& names) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:314:0: warning: The function 'DenseRange' is never used. [unusedFunction]
+Benchmark* Benchmark::DenseRange(int64_t start, int64_t limit, int step) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:329:0: warning: The function 'Apply' is never used. [unusedFunction]
+Benchmark* Benchmark::Apply(void (*custom_arguments)(Benchmark* benchmark)) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:346:0: warning: The function 'RangeMultiplier' is never used. [unusedFunction]
+Benchmark* Benchmark::RangeMultiplier(int multiplier) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:352:0: warning: The function 'MinTime' is never used. [unusedFunction]
+Benchmark* Benchmark::MinTime(double t) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:359:0: warning: The function 'MinWarmUpTime' is never used. [unusedFunction]
+Benchmark* Benchmark::MinWarmUpTime(double t) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:366:0: warning: The function 'Iterations' is never used. [unusedFunction]
+Benchmark* Benchmark::Iterations(IterationCount n) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:374:0: warning: The function 'Repetitions' is never used. [unusedFunction]
+Benchmark* Benchmark::Repetitions(int n) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:380:0: warning: The function 'ReportAggregatesOnly' is never used. [unusedFunction]
+Benchmark* Benchmark::ReportAggregatesOnly(bool value) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:385:0: warning: The function 'DisplayAggregatesOnly' is never used. [unusedFunction]
+Benchmark* Benchmark::DisplayAggregatesOnly(bool value) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:401:0: warning: The function 'MeasureProcessCPUTime' is never used. [unusedFunction]
+Benchmark* Benchmark::MeasureProcessCPUTime() {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:407:0: warning: The function 'UseRealTime' is never used. [unusedFunction]
+Benchmark* Benchmark::UseRealTime() {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:414:0: warning: The function 'UseManualTime' is never used. [unusedFunction]
+Benchmark* Benchmark::UseManualTime() {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:421:0: warning: The function 'Complexity' is never used. [unusedFunction]
+Benchmark* Benchmark::Complexity(BigO complexity) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:439:0: warning: The function 'Threads' is never used. [unusedFunction]
+Benchmark* Benchmark::Threads(int t) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:445:0: warning: The function 'ThreadRange' is never used. [unusedFunction]
+Benchmark* Benchmark::ThreadRange(int min_threads, int max_threads) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:453:0: warning: The function 'DenseThreadRange' is never used. [unusedFunction]
+Benchmark* Benchmark::DenseThreadRange(int min_threads, int max_threads,
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:466:0: warning: The function 'ThreadPerCpu' is never used. [unusedFunction]
+Benchmark* Benchmark::ThreadPerCpu() {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:473:0: warning: The function 'GetName' is never used. [unusedFunction]
+const char* Benchmark::GetName() const { return name_.c_str(); }
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:483:0: warning: The function 'GetArgName' is never used. [unusedFunction]
+const char* Benchmark::GetArgName(int arg) const {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:501:0: warning: The function 'ClearRegisteredBenchmarks' is never used. [unusedFunction]
+void ClearRegisteredBenchmarks() {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:505:0: warning: The function 'CreateRange' is never used. [unusedFunction]
+std::vector<int64_t> CreateRange(int64_t lo, int64_t hi, int multi) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/benchmark_register.cc:511:0: warning: The function 'CreateDenseRange' is never used. [unusedFunction]
+std::vector<int64_t> CreateDenseRange(int64_t start, int64_t limit, int step) {
+^
+/tmp/tmprhlcct3e/student/benchmark/lib/src/perf_counters.cc:252:0: warning: The function 'IsCounterSupported' is never used. [unusedFunction]
+bool PerfCounters::IsCounterSupported(const std::string&) { return false; }
+^
