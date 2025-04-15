@@ -15,10 +15,10 @@
 -- Looking for __ubsan_handle_add_overflow in ubsan
 -- Looking for __ubsan_handle_add_overflow in ubsan - found
 -- Sanitizers (AddressSanitizer + UndefinedBehaviorSanitizer) są dostępne
-Katalog do zbudowanego projektu: /tmp/tmpm7ace_5q/student/build
- + Znaleziono nagłówki: /tmp/tmpm7ace_5q/student/containerWrapper.h
- + Znaleziono źródła: /tmp/tmpm7ace_5q/student/containerWrapper.cpp;/tmp/tmpm7ace_5q/student/main.cpp
- + Znaleziono źródła bez main.cpp: /tmp/tmpm7ace_5q/student/containerWrapper.cpp
+Katalog do zbudowanego projektu: /tmp/tmpqtdndhya/student/build
+ + Znaleziono nagłówki: /tmp/tmpqtdndhya/student/containerWrapper.h
+ + Znaleziono źródła: /tmp/tmpqtdndhya/student/containerWrapper.cpp;/tmp/tmpqtdndhya/student/main.cpp
+ + Znaleziono źródła bez main.cpp: /tmp/tmpqtdndhya/student/containerWrapper.cpp
 	* valgrind found: /usr/bin/valgrind
 	* cppcheck found: /usr/local/bin/cppcheck
 -- Looking for pthread.h
@@ -26,7 +26,7 @@ Katalog do zbudowanego projektu: /tmp/tmpm7ace_5q/student/build
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
- + Znaleziono pliki testów: /tmp/tmpm7ace_5q/student/unit_tests/containerWrapperTests.cpp
+ + Znaleziono pliki testów: /tmp/tmpqtdndhya/student/unit_tests/containerWrapperTests.cpp
  + katalog nagłówków: 
 -- Failed to find LLVM FileCheck
 -- Found Git: /usr/bin/git (found version "2.34.1") 
@@ -78,7 +78,7 @@ Katalog do zbudowanego projektu: /tmp/tmpm7ace_5q/student/build
 -- Performing Test HAVE_STEADY_CLOCK -- success
 -- Compiling and running to test HAVE_PTHREAD_AFFINITY
 -- Performing Test HAVE_PTHREAD_AFFINITY -- success
- + Znaleziono pliki benchmarków: /tmp/tmpm7ace_5q/student/benchmark/containerBenchmark.cpp
+ + Znaleziono pliki benchmarków: /tmp/tmpqtdndhya/student/benchmark/containerBenchmark.cpp
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/tmpm7ace_5q/student/build
+-- Build files have been written to: /tmp/tmpqtdndhya/student/build
