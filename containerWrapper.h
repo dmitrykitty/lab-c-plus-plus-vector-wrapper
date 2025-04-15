@@ -59,10 +59,10 @@ Liczy sie przejście testów, aczkolwiek dobrze jakby tez nie bylo warningow i w
 //#define UNIMPLEMENTED_AT
 //#define UNIMPLEMENTED_SORT
 //#define UNIMPLEMENTED_ERASE
-#define UNIMPLEMENTED_COUNT
-#define UNIMPLEMENTED_FIND
-#define UNIMPLEMENTED_POP_FRONT
-#define UNIMPLEMENTED_POP_BACK
+//#define UNIMPLEMENTED_COUNT
+//#define UNIMPLEMENTED_FIND
+//#define UNIMPLEMENTED_POP_FRONT
+//#define UNIMPLEMENTED_POP_BACK
 
 
 /// @brief Klasa abstrakcyjna `IContainerWrapper`, wszystkie metody czysto virtualne powinny być zaimplementowane
@@ -159,11 +159,12 @@ public:
 
     void erase(std::size_t index) override;
 
-    value_type count() const override { return {}; }
-    std::size_t find(const value_type & /*needle*/) const override { return {}; }
+    [[nodiscard]] value_type count() const override;
 
-    value_type pop_front() override { return {}; }
-    value_type pop_back() override { return {}; }
+    [[nodiscard]] std::size_t find(const value_type &element) const override;
+
+    value_type pop_front() override;
+    value_type pop_back() override;
 
 protected: // lub private: zaleznie czy po VectorWrapper bedzie dziedziczyc VectorPreallocatedWrapper czy nie
     std::vector<value_type> impl_{};
