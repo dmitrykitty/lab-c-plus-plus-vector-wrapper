@@ -53,9 +53,9 @@ Liczy sie przejście testów, aczkolwiek dobrze jakby tez nie bylo warningow i w
 
 //#define UNIMPLEMENTED_DEFAULT_CONSTRUCTOR
 //#define UNIMPLEMENTED_CONSTRUCTOR_COPYING_FROM_ARRAY
-#define UNIMPLEMENTED_PUSH_BACK
-#define UNIMPLEMENTED_PUSH_FRONT
-#define UNIMPLEMENTED_INSERT
+//#define UNIMPLEMENTED_PUSH_BACK
+//#define UNIMPLEMENTED_PUSH_FRONT
+//#define UNIMPLEMENTED_INSERT
 #define UNIMPLEMENTED_AT
 #define UNIMPLEMENTED_SORT
 #define UNIMPLEMENTED_ERASE
@@ -143,11 +143,30 @@ public:
 
     VectorWrapper() = default;
 
-    VectorWrapper(const value_type arr[], std::size_t size) {
-        for (int i = 0; i < size; i++) {
-            impl_[i] = arr[i];
-        }
+    VectorWrapper(const value_type *arr, std::size_t size): impl_(arr, arr + size) {}
+
+    void push_back(const value_type &num) override;
+
+    void push_front(const value_type &num) override;
+
+    void insert(const value_type &num, std::size_t ind) override;
+
+    std::size_t size() const override { return {}; }
+
+    value_type &at(std::size_t /*position*/) override {
+        static value_type zero{};
+        return zero;
     }
+
+    void sort() override {}
+
+    void erase(std::size_t /*position*/) override {}
+
+    value_type count() const override { return {}; }
+    std::size_t find(const value_type & /*needle*/) const override { return {}; }
+
+    value_type pop_front() override { return {}; }
+    value_type pop_back() override { return {}; }
 
 protected: // lub private: zaleznie czy po VectorWrapper bedzie dziedziczyc VectorPreallocatedWrapper czy nie
     std::vector<value_type> impl_{};

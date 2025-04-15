@@ -1,0 +1,21 @@
+# ninja log v6
+22	1303	7664391181602879	unit_tests/CMakeFiles/unit_tests.dir/__/containerWrapper.cpp.obj	b609f7033238d9c8
+12	2593	7664391181501166	unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	d5c64680ce05a51
+7	11628	7664391181455371	unit_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	3fa6381fc3c75de7
+41	1886	7664395762266563	unit_tests/CMakeFiles/unit_tests.dir/__/containerWrapper.cpp.obj	b609f7033238d9c8
+34	4466	7664395762196578	unit_tests/CMakeFiles/unit_tests.dir/containerWrapperTests.cpp.obj	623ba81d1345efcb
+22	7385	7664395762080481	lib/libgtest.a	40969e1b276f99eb
+7385	7488	7664395835704363	lib/libgtest_main.a	f4bc60cce656163e
+7488	14420	7664395836740757	bin/unit_tests.exe	b1ba9d38446f3c68
+19	824	7664398550790317	unit_tests/CMakeFiles/unit_tests.dir/__/containerWrapper.cpp.obj	b609f7033238d9c8
+15	1921	7664398550736044	unit_tests/CMakeFiles/unit_tests.dir/containerWrapperTests.cpp.obj	623ba81d1345efcb
+1921	6750	7664398569803034	bin/unit_tests.exe	b1ba9d38446f3c68
+15	1164	7664401197485536	unit_tests/CMakeFiles/unit_tests.dir/__/containerWrapper.cpp.obj	b609f7033238d9c8
+10	2320	7664401197435500	unit_tests/CMakeFiles/unit_tests.dir/containerWrapperTests.cpp.obj	623ba81d1345efcb
+2320	7161	7664401220540501	bin/unit_tests.exe	b1ba9d38446f3c68
+16	923	7664404372693305	unit_tests/CMakeFiles/unit_tests.dir/__/containerWrapper.cpp.obj	b609f7033238d9c8
+11	1994	7664404372641799	unit_tests/CMakeFiles/unit_tests.dir/containerWrapperTests.cpp.obj	623ba81d1345efcb
+1995	6813	7664404392481582	bin/unit_tests.exe	b1ba9d38446f3c68
+17	2697	7664405992458940	unit_tests/CMakeFiles/unit_tests.dir/containerWrapperTests.cpp.obj	623ba81d1345efcb
+11	1058	7664408560743446	unit_tests/CMakeFiles/unit_tests.dir/__/containerWrapper.cpp.obj	b609f7033238d9c8
+1058	5920	7664408571216647	bin/unit_tests.exe	b1ba9d38446f3c68
