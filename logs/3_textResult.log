@@ -1,72 +1,57 @@
-Running main() from /tmp/tmprhlcct3e/student/unit_tests/lib/googletest/src/gtest_main.cc
+Running main() from /tmp/tmpex2nq98t/student/unit_tests/lib/googletest/src/gtest_main.cc
 [==========] Running 12 tests from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 12 tests from ContainerWrapperTester
 [ RUN      ] ContainerWrapperTester.constructionLotsOfElementsWithDefaultConstructor_expectedNoCrash
 [INFO] Created 100000 obects, with size: 781 kb
-[       OK ] ContainerWrapperTester.constructionLotsOfElementsWithDefaultConstructor_expectedNoCrash (15 ms)
+[       OK ] ContainerWrapperTester.constructionLotsOfElementsWithDefaultConstructor_expectedNoCrash (19 ms)
 [ RUN      ] ContainerWrapperTester.constructionFromArray_expectedElementsCopied
 [       OK ] ContainerWrapperTester.constructionFromArray_expectedElementsCopied (2 ms)
 [ RUN      ] ContainerWrapperTester.pushBackManyElements
 [       OK ] ContainerWrapperTester.pushBackManyElements (8 ms)
 [ RUN      ] ContainerWrapperTester.pushFrontManyElements
-[       OK ] ContainerWrapperTester.pushFrontManyElements (16280 ms)
+[       OK ] ContainerWrapperTester.pushFrontManyElements (16185 ms)
 [ RUN      ] ContainerWrapperTester.insertingInRandomPositionManyElements
-[       OK ] ContainerWrapperTester.insertingInRandomPositionManyElements (16265 ms)
+[       OK ] ContainerWrapperTester.insertingInRandomPositionManyElements (8094 ms)
 [ RUN      ] ContainerWrapperTester.randomAccess
-/tmp/tmprhlcct3e/student/unit_tests/containerWrapperTests.cpp:118: Failure
-Failed
-Method at() not implemented!
-
-[  FAILED  ] ContainerWrapperTester.randomAccess (0 ms)
+[       OK ] ContainerWrapperTester.randomAccess (20 ms)
 [ RUN      ] ContainerWrapperTester.sorting
-/tmp/tmprhlcct3e/student/unit_tests/containerWrapperTests.cpp:137: Failure
-Failed
-Method sort() not implemented!
-
-[  FAILED  ] ContainerWrapperTester.sorting (0 ms)
+[       OK ] ContainerWrapperTester.sorting (307 ms)
 [ RUN      ] ContainerWrapperTester.randomErase
-/tmp/tmprhlcct3e/student/unit_tests/containerWrapperTests.cpp:155: Failure
-Failed
-Method erase() not implemented!
-
-[  FAILED  ] ContainerWrapperTester.randomErase (0 ms)
+[       OK ] ContainerWrapperTester.randomErase (9554 ms)
 [ RUN      ] ContainerWrapperTester.count_expectedAllElementsCounted
-/tmp/tmprhlcct3e/student/unit_tests/containerWrapperTests.cpp:169: Failure
+/tmp/tmpex2nq98t/student/unit_tests/containerWrapperTests.cpp:169: Failure
 Failed
 Method count() not implemented!
 
 [  FAILED  ] ContainerWrapperTester.count_expectedAllElementsCounted (0 ms)
 [ RUN      ] ContainerWrapperTester.findElement
-/tmp/tmprhlcct3e/student/unit_tests/containerWrapperTests.cpp:190: Failure
+/tmp/tmpex2nq98t/student/unit_tests/containerWrapperTests.cpp:190: Failure
 Failed
 Method find() not implemented!
 
 [  FAILED  ] ContainerWrapperTester.findElement (0 ms)
 [ RUN      ] ContainerWrapperTester.popFront
-/tmp/tmprhlcct3e/student/unit_tests/containerWrapperTests.cpp:210: Failure
+/tmp/tmpex2nq98t/student/unit_tests/containerWrapperTests.cpp:210: Failure
 Failed
 Method pop_front() not implemented!
 
 [  FAILED  ] ContainerWrapperTester.popFront (0 ms)
 [ RUN      ] ContainerWrapperTester.popBack
-/tmp/tmprhlcct3e/student/unit_tests/containerWrapperTests.cpp:230: Failure
+/tmp/tmpex2nq98t/student/unit_tests/containerWrapperTests.cpp:230: Failure
 Failed
 Method pop_back() not implemented!
 
 [  FAILED  ] ContainerWrapperTester.popBack (0 ms)
-[----------] 12 tests from ContainerWrapperTester (32575 ms total)
+[----------] 12 tests from ContainerWrapperTester (34193 ms total)
 
 [----------] Global test environment tear-down
-[==========] 12 tests from 1 test suite ran. (32575 ms total)
-[  PASSED  ] 5 tests.
-[  FAILED  ] 7 tests, listed below:
-[  FAILED  ] ContainerWrapperTester.randomAccess
-[  FAILED  ] ContainerWrapperTester.sorting
-[  FAILED  ] ContainerWrapperTester.randomErase
+[==========] 12 tests from 1 test suite ran. (34194 ms total)
+[  PASSED  ] 8 tests.
+[  FAILED  ] 4 tests, listed below:
 [  FAILED  ] ContainerWrapperTester.count_expectedAllElementsCounted
 [  FAILED  ] ContainerWrapperTester.findElement
 [  FAILED  ] ContainerWrapperTester.popFront
 [  FAILED  ] ContainerWrapperTester.popBack
 
- 7 FAILED TESTS
+ 4 FAILED TESTS
